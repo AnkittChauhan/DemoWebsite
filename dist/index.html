@@ -4,18 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/dist/output.css">
+    <link href="/dist/output.css" rel="stylesheet">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
-<body>
-    <div class="p-6 max-w-md mx-auto bg-white  items-center space-x-4">
+</head>
+<body class=" sm:bg-gray-200 bg-gray-100">
+
+  <div class="grid sm:grid-cols-2">
+    <div class="p-6 max-w-md mx-auto space-x-4 lg:max-w-full">
         <img class=" h-12" src="/img/workcation.update.png" alt="workcation logo">
-        <img class="mt-6 h-56 rounded-lg shadow-xl" src="/img/beachwork.jpg" alt="beachwork by a lady">
-        <h1 class="mt-6 text-2xl font-bold">You can work from anywhere.</h1> <h1><span class="text-2xl font-bold text-indigo-500">Take advantage of it.</span></h1>
-        <p class=" mt-2 text-gray-600">workcation helps you find work-friendly rentals in beautiful locations so you can enjoy some nice weather even when you're not on vacation</p>
-        <div class="mt-4">
-            <a href="#" class="font-medium capitalize px-4 py-2 tracking-wider shadow-2xl rounded-xl text-gray-200 bg-blue-700">book your escape</a>
+        <img class="mt-6 h-56 rounded-lg shadow-xl sm:h-64 sm:w-full object-center sm:hidden" src="/img/beachwork.jpg" alt="beachwork by a lady">
+        <h1 class="mt-6 text-2xl font-bold sm:text-3xl md:text-4xl md:mt-7 lg:text-5xl lg:mt-8">You can work from anywhere.</h1> <h1><span class="text-2xl font-bold text-indigo-500 sm:text-3xl md:text-4xl lg:text-5xl">Take advantage of it.</span></h1>
+        <p class=" mt-2 text-gray-600 sm:text-base md:text-lg lg:text-xl">workcation helps you find work-friendly rentals in beautiful locations so you can enjoy some nice weather even when you're not on vacation</p>
+        <div class="mt-4 lg:mt-6">
+            <a href="#" class="font-medium capitalize px-4 py-2 tracking-wider shadow-2xl rounded-xl text-gray-200 bg-blue-700 sm-text-base lg:text-xl">book your escape</a>
         </div>
     </div>
 
+    <div class="relative  hidden sm:block" >
+        <img class="absolute inset-0 h-full w-full object-cover object-center" src="/img/beachwork.jpg" alt="beachwork by a lady">
+    </div>
+  </div>
+
 </body>
-</html> 
+</html>
