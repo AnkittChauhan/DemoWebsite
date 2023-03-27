@@ -5,19 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="/dist/output.css" rel="stylesheet">
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    
 </head>
-</head>
-<body class=" sm:bg-gray-200 bg-gray-100">
-
-  <div class="grid sm:grid-cols-2">
-    <div class="p-6 max-w-md mx-auto space-x-4 lg:max-w-full">
+<body class="bg-gray-200">
+ <div class="grid sm:grid-cols-2 sm:bg-gray-100 bg-gray-100">
+    <div class="p-6 max-w-md mx-auto space-x-4 lg:max-w-full ">
         <img class=" h-12" src="/img/workcation.update.png" alt="workcation logo">
         <img class="mt-6 h-56 rounded-lg shadow-xl sm:h-64 sm:w-full object-center sm:hidden" src="/img/beachwork.jpg" alt="beachwork by a lady">
         <h1 class="mt-6 text-2xl font-bold sm:text-3xl md:text-4xl md:mt-7 lg:text-5xl lg:mt-8">You can work from anywhere.</h1> <h1><span class="text-2xl font-bold text-indigo-500 sm:text-3xl md:text-4xl lg:text-5xl">Take advantage of it.</span></h1>
         <p class=" mt-2 text-gray-600 sm:text-base md:text-lg lg:text-xl">workcation helps you find work-friendly rentals in beautiful locations so you can enjoy some nice weather even when you're not on vacation</p>
-        <div class="mt-4 lg:mt-6">
-            <a href="#" class="font-medium capitalize px-4 py-2 tracking-wider shadow-2xl rounded-xl text-gray-200 bg-blue-700 sm-text-base lg:text-xl">book your escape</a>
+        <div class="mt-4 lg:mt-6 hover:-translate-y-0.5 transform max-w-fit">
+            <a href="#" class="font-medium capitalize px-4 py-2 tracking-wider hover: shadow-2xl rounded-xl text-gray-200 bg-indigo-500 sm-text-base lg:text-xl  hover:bg-black focus:outline-none focus:ring focus:ring-offset-2 ring-indigo-400 active:bg-indigo-500">book your escape</a>
         </div>
     </div>
 
@@ -26,5 +24,19 @@
     </div>
   </div>
 
+  <div>
+    <h1 class="mt-5 mx-8 tracking-wider underline underline-offset-4 font-semibold text-base text-center sm:text-start">Popular Destinations</h1>
+    <p class=" mt-3 mx-6 text-sm text-gray-700">A selection of great work-friendly cities with a lot to see and explore :</p>
+  </div>
+  
+  <ul class="mx-4 grid lg:grid-cols-3 sm:grid-cols-2 grid-rows-6 gap-x-8 gap-y-8 ">
+    <li class="bg-white rounded-lg shadow-xl mt-4"><div class="h-24 flex"><img class="img" src="/img/Red-Fort.jpg" alt="Red-Fort"><div class="grid grid-rows-3"><h1 class="content">Red Fort</h1><p class="mx-4 text-gray-700 text-sm">$10 / night average</p><h6 class="my-1 mx-4 text-indigo-600 font-bold tracking-wider text-xs">Explore 96 properties</h6></div></div></li>
+    <li class="bg-white rounded-lg shadow-xl mt-4"><div class="h-24 flex"><img class="img" src="/img/Taj-Mahal.jpg" alt="Taj-Mahal"><div class="grid grid-rows-3"><h1 class="content">Taj Mahal</h1><p class="mx-4 text-gray-700 text-sm">$9 / night average</p><h6 class="my-1 mx-4 text-indigo-600 font-semibold tracking-wider text-xs">Explore 43 properties</h6></div></div></li>
+    <li class="bg-white rounded-lg shadow-xl mt-4"><div class="h-24 flex"><img class="img" src="/img/Varanasi.jpg" alt="Varanasi"><div class="grid grid-rows-3"><h1 class="content">Varanasi</h1><p class="mx-4 text-gray-700 text-sm">$11 / night average</p><h6 class="my-1 mx-4 text-indigo-600 font-semibold tracking-wider text-xs">Explore 33 properties</h6></div></div></li>
+    <li class="bg-white rounded-lg shadow-xl mt-4"><div class="h-24 flex"><img class="img" src="/img/Hawa-mahal.jpg" alt="Hawa-mahal"><div class="grid grid-rows-3"><h1 class="content">Hawa Mahal</h1><p class="mx-4 text-gray-700 text-sm">$15 / night average</p><h6 class="my-1 mx-4 text-indigo-600 font-semibold tracking-wider text-xs">Explore 86 properties</h6></div></div></li>
+    <li class="bg-white rounded-lg shadow-xl mt-4"><div class="h-24 flex"><img class="img" src="/img/Goa.jpg" alt="Goa"><div class="grid grid-rows-3"><h1 class="content">Goa</h1><p class="mx-4 text-gray-700 text-sm">$13 / night average</p><h6 class="my-1 mx-4 text-indigo-600 font-semibold tracking-wider text-xs">Explore 112 properties</h6></div></div></li>
+    <li class="bg-white rounded-lg shadow-xl mt-4"><div class="h-24 flex"><img class="img" src="/img/Manali.jpg" alt="Manali"><div class="grid grid-rows-3"><h1 class="content">Manali</h1><p class="mx-4 text-gray-700 text-sm">$9 / night average</p><h6 class="my-1 mx-4 text-indigo-600 font-semibold tracking-wider text-xs">Explore 72 properties</h6></div></div></li>
+  </ul>
+  
 </body>
 </html>
